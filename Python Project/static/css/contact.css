@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background-image: url("../image/pngtree-tech-artificial-intelligence-banner-background-image_210798.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-us{
+    height: 500px;
+    width: 650px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.email{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    left:150px;
+    top: 40px;
+    color: rgb(119, 1, 70);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.email-1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    top: 38px;
+}
+
+.pno{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    left:150px;
+    top: 130px;
+    color: rgb(119, 1, 70);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.pno-3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    top: 130px;
+}
+
+.addrss{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    left:150px;
+    top: 295px;
+    color: rgb(119, 1, 70);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.loc-1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    top: 300px;
+}
+
+.linknd-profile{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    left:150px;
+    top: 210px;
+    color: rgb(119, 1, 70);
+     animation: glow 1s ease-in-out infinite alternate;
+}
+
+.link-1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    top: 210px;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3d08fa, 0 0 40px #3d08fa, 0 0 50px #3d08fa, 0 0 60px #3d08fa, 0 0 70px #3d08fa;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #3d08fa, 0 0 50px #3d08fa, 0 0 60px #3d08fa, 0 0 70px #3d08fa, 0 0 80px #3d08fa;
+    }
+  }

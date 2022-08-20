@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url("../image/pngtree-tech-artificial-intelligence-banner-background-image_210798.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Course-us{
+    height: 500px;
+    width: 650px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.course-1{
+    position: absolute;
+    width: 3000px;
+    height: 30px;
+    font-size: 50px;
+    left: 120px;
+    top: 6px;
+    color: rgb(119, 1, 70);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3d08fa, 0 0 40px #3d08fa, 0 0 50px #3d08fa, 0 0 60px #3d08fa, 0 0 70px #3d08fa;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #3d08fa, 0 0 50px #3d08fa, 0 0 60px #3d08fa, 0 0 70px #3d08fa, 0 0 80px #3d08fa;
+    }
+  }
+
+  .hardware{
+    position: absolute;
+    width: 1000px;
+    height: 80px;
+    font-size: 25px;
+    left:40px;
+    top: 350px;
+    color: rgb(119, 1, 70);
+}
+
+
+.python{
+    position: absolute;
+    width: 1000px;
+    height: 10px;
+    font-size: 25px;
+    left: 40px;
+    top: 200px;
+    color: rgb(119, 1, 70);
+}
